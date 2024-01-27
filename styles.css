@@ -212,13 +212,11 @@ body {
     text-align: left;
     font-family: "DM Sans", sans-serif;
     
-
     display: grid;
     grid-template-columns: auto auto; /* Duas colunas automáticas */
     gap: 10px; /* Adiciona espaço entre as colunas */
     color: #fff;
     background: linear-gradient(to right, #ae2896, #509bf5);
-
     }
 
 .grid-container p {
@@ -234,6 +232,4 @@ body {
     font-family: "DM Sans", sans-serif;
     color: #121212;
     padding: 8px 12px 22px 12px;
-
-    
 }
