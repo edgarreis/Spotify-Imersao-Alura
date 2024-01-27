@@ -1,0 +1,239 @@
+body {
+     background-color:#161616     /*#252424; */
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+.sidebar__navegation {
+    background-color: #121212;
+    border-radius: 8px;
+    /* padding: 16px 0px 0px 16px; */
+    /* cursor: pointer; */
+}
+
+.sidebar__navegation .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0px 0px 16px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0px 20px 10px;
+}
+
+.sidebar nav ul li {
+    padding: 10px 0px;
+
+}
+
+.sidebar nav ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+.sidebar nav ul li a:hover {
+    color: #ffffff;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    transition: color 0.5s;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library_button {
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.library .library_button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus {
+    margin: 24px 10px;
+    cursor: pointer;
+}
+
+.library .library_button:hover {
+    color: #ffffff;
+}
+
+.library .library__content .fa-plus:hover {
+    color: #ffffff;
+}
+
+.section-playlist {
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist .section-playlist__content .text {
+    padding-bottom: 14px;
+    background-color: #242424;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist .section-playlist__content .title {
+    font-weight: 700;
+}
+
+.section-playlist .section-playlist__content .subtitle {
+    font-weight: 500;
+}
+
+
+
+
+.library .section-playlist__button {
+    background-color: #fff;
+    border-radius: 20px;
+    height: 28px;
+    width:fit-content;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    color: #121212;
+    padding: 8px 12px 22px 12px;
+}
+
+.sidebar .cookies {
+    margin: 20px 20px;
+
+}
+
+.sidebar .cookies a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sidebar .cokies a:hover{
+    text-decoration: underline;
+}
+
+/* .languages .languages__button{
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 16px;
+} */
+
+.languages .language__button {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #878787;
+    height: 28px;
+    width:fit-content;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    padding: 8px 12px 22px 12px;
+    cursor: pointer;
+
+}
+
+.grid-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15px 40px;
+    
+    text-align: left;
+    font-family: "DM Sans", sans-serif;
+    
+
+    display: grid;
+    grid-template-columns: auto auto; /* Duas colunas automáticas */
+    gap: 10px; /* Adiciona espaço entre as colunas */
+    color: #fff;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+
+    }
+
+.grid-container p {
+    margin-bottom: 10px; /* Distância após o primeiro parágrafo */
+}
+
+.disclainer-premuim .subscribe__button {
+    background-color: #fff;
+    border-radius: 20px;
+    height: 35px;
+    width:fit-content;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    color: #121212;
+    padding: 8px 12px 22px 12px;
+
+    
+}
